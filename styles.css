@@ -1,0 +1,518 @@
+/*
+
+primary color: #525252
+secondary color: #9E9E9E;
+
+*/
+
+html, body {
+    height: 100%;
+}
+
+body {
+    height: calc(100% - 200px);
+    color: #9E9E9E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+a, a:hover, a:active, a:focus {
+    text-decoration: none;
+    color: #9E9E9E;
+    outline: none;
+}
+
+h1 {
+    font-size: 30px;
+    color: #525252;
+}
+
+h2 {
+    font-size: 22px;
+    color: #525252;
+}
+
+h3 {
+    font-size: 19px;
+    color: #525252;
+}
+
+h4 {
+    font-size: 16px;
+    color: #9E9E9E;
+}
+
+.wrapper {
+    width: 1000px;
+    background: #f2f2f2;
+    margin: 100px auto;
+    -webkit-box-shadow: -5px -5px 30px #9E9E9E;
+    -moz-box-shadow: -5px -5px 30px #9E9E9E;
+    box-shadow: -5px -5px 30px #9E9E9E;
+    border: 1px solid #EEEEEE;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 20px 20px 0 20px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+article:last-of-type {
+    margin-bottom: 0;
+}
+
+section {
+    padding: 20px 20px 0 20px;
+}
+
+section.content {
+    display: flex;
+    padding: 40px 20px 0 20px;
+}
+
+.content .column {
+    flex: 1;
+    padding: 10px;
+}
+
+.user {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.contacts {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    font-size: 14px;
+}
+
+.primary-color {
+    color:  #525252;
+}
+
+.secondary-color {
+    color: #9E9E9E;
+}
+
+.logo {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: url(images/logo.png);
+    background-position: -10px -10px;
+}
+
+article .title,
+.work-experience .title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #525252;
+    padding-bottom: 5px;
+    border-bottom: 2px dotted #bdbdbd;
+}
+
+.content .article-content {
+    padding-top: 10px;
+    position: relative;
+}
+
+.content .article-content p {
+    white-space: pre-line;
+}
+
+.progress-line {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    bottom: 0;
+    width: 3px;
+    background: #525252;
+    margin-top: 10px;
+}
+
+.progress-line:before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -4px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #525252;
+}
+
+.progress-line:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: -2px;
+    width: 7px;
+    height: 7px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #525252;
+}
+
+.progress-captions {
+    padding: 30px;
+}
+
+.progress-captions .progress-caption {
+    margin-bottom: 20px;
+}
+.progress-captions .progress-caption:last-of-type {
+    margin-bottom: 0;
+}
+
+.progress-captions .progress-caption:before {
+    content: '';
+    position: absolute;
+    left: 4px;
+    width: 11px;
+    height: 11px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #f2f2f2;
+    background: #525252;
+    margin-top: 22px;
+}
+
+.progress-captions .progress-caption .caption-line {
+    display: block;
+    padding: 2px;
+}
+
+.progress-captions .progress-caption .caption-line.job-title,
+.progress-captions .progress-caption .caption-line.work-duration,
+.achievements .achievement .achievement-name,
+.achievements .achievement .achievement-competition {
+    color: #525252;
+}
+
+.progress-captions .progress-caption .caption-line.work-duration,
+.progress-captions .progress-caption .caption-line.job-post,
+.achievements .achievement .achievement-competition,
+.achievements .achievement .achievement-description {
+    font-size: 14px;
+}
+
+
+.radial-progress-wrapper {
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+}
+
+.radial-progress {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #bdbdbd;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.radial-progress.active {
+    border-color: #525252;
+}
+
+.radial-progress-wrapper.p100 .radial-progress.active{
+    clip: rect(0px, 110px, 110px, 0px);
+}
+
+.radial-progress-wrapper.p50 .radial-progress {
+    clip: rect(57px, 110px, 110px, 0px);
+}
+.radial-progress-wrapper.p50 .radial-progress.active {
+    clip: rect(0px, 110px, 53px, 0px);
+}
+
+.radial-progress-wrapper .lang-skills-title {
+    text-align: center;
+    margin-top: 40px;
+    width: 110px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #525252;
+}
+
+.radial-progress-wrapper .lang-skills-desc {
+    color: #bdbdbd;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+.lang-skills {
+    display: flex;
+    justify-content: flex-start;
+}
+.lang-skills .radial-progress-wrapper {
+    padding: 20px;
+}
+
+.work-experience article {
+    margin-top: 20px;
+}
+
+.work-experience .project-title {
+    padding-bottom: 10px;
+    color: #525252;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.work-experience .project-info {
+    display: flex;
+}
+
+.work-experience .project-info .column:first-child {
+    flex: 2;
+}
+.work-experience .project-info .column:last-child {
+    flex: 1;
+}
+.work-experience .project-description {
+    padding-bottom: 10px;
+}
+.work-experience .project-description p {
+    line-height: 22px;
+    white-space: pre-line;
+}
+.work-experience .block-name {
+    font-size: 14px;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-weight: 700;
+    color: #525252;
+}
+.work-experience .project-responsibilities ul li {
+    padding: 6px 15px;
+    position: relative;
+}
+.work-experience .project-responsibilities ul li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 6px;
+    height: 6px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #525252;
+}
+.work-experience .project-duration {
+    font-size: 14px;
+    color: #525252;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.work-experience .project-technologies {
+    padding-left: 20px;
+}
+.work-experience .technologies-group-list {
+    padding-bottom: 5px;
+}
+.badge {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 4px;
+    font-style: initial;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #525252;
+    border: 1px solid #bdbdbd;
+    margin-right: 1px;
+    margin-bottom: 5px;
+}
+.badge.badge-invert {
+    background: #525252;
+    color: #bdbdbd;
+    border: none;
+}
+.badge.badge-nda {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+.badge:last-of-type {
+    margin-right: 0;
+}
+
+.hobby-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border: 2px solid #bdbdbd;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.hobby-icon {
+    background-image: url(images/icons-sprite.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    background-size: 360px 90px;
+    left: 20px;
+    top: 4px;
+}
+
+.hobby-description {
+    font-size: 11px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    bottom: 20px;
+    color: #525252;
+    font-weight: 600;
+}
+
+.hobby-icon.swimming {
+    background-position: 0 0;
+    top: 14px;
+}
+.hobby-icon.trains {
+    background-position: -45px 0;
+    left: 22px;
+    top: 9px;
+}
+.hobby-icon.cubic {
+    background-position: -90px 0;
+    top: 6px;
+}
+.hobby-icon.cycling {
+    background-position: -135px 0;
+    top: 11px;
+}
+.hobby-icon.music {
+    background-position: -180px 0;
+}
+.hobby-icon.sport {
+    background-position: -225px 0;
+    left: 22px;
+    top: 11px;
+}
+.hobby-icon.travelling {
+    background-position: -270px 0;
+}
+.hobby-icon.programming {
+    background-position: -315px 0;
+    top: 7px;
+}
+
+.achievements {
+    padding-left: 60px;
+}
+.achievements .achievement {
+    position: relative;
+    padding-bottom: 20px;
+    height: 70px;
+}
+.achievements .achievement:last-of-type {
+    padding-bottom: 0;
+}
+.achievements .achievement > span {
+    display: block;
+    padding: 2px;
+}
+
+.achievements .achievement .achievement-place {
+    position: absolute;
+    background-image: url(images/icons-sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0 -64px;
+    width: 64px;
+    height: 64px;
+    left: -60px;
+    top: 4px;
+}
+
+.achievements .achievement .achievement-place > span {
+    position: absolute;
+    bottom: 11px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #525252;
+    left: 9px;
+}
+
+.th-ending {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 500;
+    top: -2px;
+    right: -15px;
+}
+
+.contact-icon {
+    position: relative;
+    margin: 10px;
+}
+
+.contact-icon:before {
+    content: '';
+    background: url(images/icons-sprite.png);
+    background-size: 256px 64px;
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 0;
+}
+.contact-icon.contact-icon-skype:before {
+    background-position: -32px -32px;
+}
+.contact-icon.contact-icon-phone:before {
+    background-position: -32px -48px;
+}
+.contact-icon.contact-icon-mail:before {
+    background-position: -48px -32px;
+}
+
+.key-skills {
+    padding-left: 20px;
+}
+
+.key-skills-item {
+    position: relative;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+.key-skills-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.key-skills-item:before {
+    content: '';
+    position: absolute;
+    left: -17px;
+    top: 7px;
+    width: 7px;
+    height: 7px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #525252;
+}
