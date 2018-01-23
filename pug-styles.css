@@ -1,0 +1,494 @@
+/*
+
+    primary color: #525252
+    secondary color: #9E9E9E;
+
+*/
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #9e9e9e;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+a, a:hover, a:active, a:focus {
+    text-decoration: none;
+    color: #9E9E9E;
+    outline: none;
+}
+section {
+    padding: 20px 20px 0 20px;
+}
+h1 {
+    font-size: 30px;
+    color: #525252;
+}
+
+h2 {
+    font-size: 22px;
+    color: #525252;
+}
+
+h3 {
+    font-size: 19px;
+    color: #525252;
+}
+
+h4 {
+    font-size: 16px;
+    color: #9E9E9E;
+}
+
+.wrapper {
+    width: 1000px;
+    background: #f2f2f2;
+    margin: 100px auto;
+    -webkit-box-shadow: -5px -5px 30px #9E9E9E;
+    -moz-box-shadow: -5px -5px 30px #9E9E9E;
+    box-shadow: -5px -5px 30px #9E9E9E;
+    border: 1px solid #EEEEEE;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 20px 20px 0 20px;
+}
+
+.header-logo {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: url(images/logo.png);
+    background-position: -10px -10px;
+}
+
+.header-user-info {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.header-contacts {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    font-size: 14px;
+}
+
+.header-contacts__contact {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header-contacts__contact-icon {
+    background: url(images/icons-sprite.png);
+    background-size: 256px 64px;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.header-contacts__contact-icon-mail {
+    background-position: -48px -32px;
+}
+
+.header-contacts__contact-icon-phone {
+    background-position: -32px -48px;
+}
+
+.header-contacts__contact-icon-skype {
+    background-position: -32px -32px;
+}
+
+/* General block */
+
+.general-block {
+    display: flex;
+    padding: 40px 20px 0 20px;
+}
+
+.general-block__col-50 {
+    flex: 1;
+    padding: 10px;
+}
+
+.general-block-info {
+    margin-bottom: 30px;
+}
+
+.general-block-info__title,
+.work-experience__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #525252;
+    padding-bottom: 5px;
+    border-bottom: 2px dotted #bdbdbd;
+}
+
+.general-block-info__content {
+    padding-top: 10px;
+    position: relative;
+}
+
+.general-block-info__content p {
+    white-space: pre-line;
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.list__list-item {
+    position: relative;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+
+.list__list-item:before {
+    content: '';
+    position: absolute;
+    left: -17px;
+    top: 7px;
+    width: 7px;
+    height: 7px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #525252;
+}
+
+.hobby-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border: 2px solid #bdbdbd;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.hobby-wrapper__hobby-icon {
+    background-image: url(images/icons-sprite.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    background-size: 360px 90px;
+    left: 20px;
+    top: 4px;
+}
+
+.hobby-wrapper__hobby-description {
+    font-size: 11px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    bottom: 20px;
+    color: #525252;
+    font-weight: 600;
+}
+
+.hobby-wrapper__hobby-icon-swimming {
+    background-position: 0 0;
+    top: 14px;
+}
+
+.hobby-wrapper__hobby-icon-trains {
+    background-position: -45px 0;
+    left: 22px;
+    top: 9px;
+}
+
+.hobby-wrapper__hobby-icon-cubic {
+    background-position: -90px 0;
+    top: 6px;
+}
+
+.hobby-wrapper__hobby-icon-cycling {
+    background-position: -135px 0;
+    top: 11px;
+}
+
+.hobby-wrapper__hobby-icon-music {
+    background-position: -180px 0;
+}
+
+.hobby-wrapper__hobby-icon-sport {
+    background-position: -225px 0;
+    left: 22px;
+    top: 11px;
+}
+
+.hobby-wrapper__hobby-icon-travelling {
+    background-position: -270px 0;
+}
+
+.hobby-wrapper__hobby-icon-programming {
+    background-position: -315px 0;
+    top: 7px;
+}
+
+.progress-sequence-line {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    bottom: 0;
+    width: 3px;
+    background: #525252;
+    margin-top: 10px;
+}
+
+.progress-sequence-line:before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -4px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #525252;
+}
+
+.progress-sequence-line:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: -2px;
+    width: 7px;
+    height: 7px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #525252;
+}
+
+.progress-sequence {
+    padding: 30px;
+}
+
+.progress-sequence__item {
+    margin-bottom: 20px;
+}
+
+.progress-sequence__item:last-of-type {
+    margin-bottom: 0;
+}
+
+.progress-sequence__item:before {
+    content: '';
+    position: absolute;
+    left: 4px;
+    width: 11px;
+    height: 11px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #f2f2f2;
+    background: #525252;
+    margin-top: 22px;
+}
+
+.progress-sequence__item-title,
+.progress-sequence__item-description,
+.progress-sequence__item-duration,
+.achievement-list__item-title,
+.achievement-list__item-description,
+.achievement-list__item-competition {
+    display: block;
+    padding: 2px;
+}
+
+.progress-sequence__item-title,
+.progress-sequence__item-duration,
+.achievement-list__item-title,
+.achievement-list__item-competition {
+    color: #525252;
+}
+
+.progress-sequence__item-description,
+.progress-sequence__item-duration,
+.achievement-list__item-description,
+.achievement-list__item-competition {
+    font-size: 14px;
+}
+
+.achievements-list {
+    padding-left: 60px;
+}
+
+.achievement-list__item {
+    position: relative;
+    padding-bottom: 20px;
+    height: 70px;
+}
+
+.achievement-list__item:last-of-type {
+    padding-bottom: 0;
+}
+
+.achievement-list__item-place {
+    position: absolute;
+    background-image: url(images/icons-sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0 -64px;
+    width: 64px;
+    height: 64px;
+    left: -60px;
+    top: 4px;
+}
+
+.achievement-list__item-place span {
+    position: absolute;
+    bottom: 11px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #525252;
+    left: 9px;
+}
+
+.achievement-list__item-place span:after {
+    content: 'th';
+    position: absolute;
+    font-size: 14px;
+    font-weight: 500;
+    top: -2px;
+    right: -15px;
+}
+.language-skills {
+    display: flex;
+    justify-content: flex-start;
+}
+.language-skill {
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    padding: 20px;
+}
+
+.language-skill__active-bar,
+.language-skill__inactive-bar {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #bdbdbd;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.language-skill .language-skill__active-bar {
+    border-color: #525252;
+}
+
+.language-skill.p100 .language-skill__active-bar {
+    clip: rect(0px, 110px, 110px, 0px);
+}
+
+.language-skill.p50 .language-skill__inactive-bar {
+    clip: rect(57px, 110px, 110px, 0px);
+}
+.language-skill.p50 .language-skill__active-bar {
+    clip: rect(0px, 110px, 53px, 0px);
+}
+.language-skill__info {
+    text-align: center;
+    margin-top: 40px;
+    width: 110px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #525252;
+}
+.language-skill-name {
+    display: block;
+}
+.language-skill-description {
+    display: block;
+    color: #bdbdbd;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 2px;
+}
+.work-experience article {
+    margin-top: 20px;
+}
+.project-header {
+    padding-bottom: 10px;
+    color: #525252;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+}
+.project-header .badge {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+.badge {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 4px;
+    font-style: initial;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #525252;
+    border: 1px solid #bdbdbd;
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+.badge.badge-invert {
+    background: #525252;
+    color: #bdbdbd;
+    border: none;
+}
+.project-body {
+    display: flex;
+}
+.project-body__column-2 {
+    flex: 2;
+}
+.project-body__column-1 {
+    flex: 1;
+    padding-left: 20px;
+}
+.project-block {
+    padding-bottom: 10px;
+}
+.project-block:last-of-type {
+    padding-bottom: 0;
+}
+.project-block__title {
+    font-size: 14px;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-weight: 700;
+    color: #525252;
+}
+.project-block > p {
+    line-height: 22px;
+    white-space: pre-line;
+}
+
+.project-footer {
+    padding: 10px 0;
+}
+
+.project-footer__duration {
+    font-size: 14px;
+    color: #525252;
+    font-weight: 600;
+}

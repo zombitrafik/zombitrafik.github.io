@@ -1,0 +1,39 @@
+mixin project-skill-group (groupName, skills)
+    if skills
+        div.project-block
+            span.project-block__title #{groupName}:
+            div.skill-group
+                for skill in skills
+                    span.skill-group__skill.badge #{skill}
+
+
+section.work-experience
+    h4.work-experience__title Project experience
+    for project in projects
+        article
+            div.project-header
+                span #{project.name}
+                    if project.NDA
+                        span.badge.badge-invert NDA
+
+            div.project-body
+                div.project-body__column-2
+                    div.project-block
+                        span.project-block__title Project description:
+                        for projectDescription in project.descriptions
+                            p #{projectDescription}
+
+                    div.project-block
+                        span.project-block__title Project responsibilities:
+                        ul.list
+                            for responsibility in project.responsibilities
+                                li.list__list-item #{responsibility}
+
+                div.project-body__column-1
+                    +project-skill-group('Tools & Services', project.toolsAndServices)
+                    +project-skill-group('Client', project.client)
+                    +project-skill-group('Server', project.server)
+
+            div.project-footer
+                span.project-footer__duration #{project.duration}
+

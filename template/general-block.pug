@@ -1,5 +1,5 @@
 section.general-block
-    div.col.col-50
+    div.general-block__col-50
         article.general-block-info
             h4.general-block-info__title About me
             div.general-block-info__content
@@ -21,7 +21,7 @@ section.general-block
                         span.hobby-wrapper__hobby-icon(class="hobby-wrapper__hobby-icon-" + hobby.class)
                         span.hobby-wrapper__hobby-description #{hobby.description}
 
-    div.col.col-50
+    div.general-block__col-50
         article.general-block-info
             h4.general-block-info__title Work experience
             div.general-block-info__content
@@ -49,3 +49,10 @@ section.general-block
             h4.general-block-info__title Language skills
             div.general-block-info__content
                 div.language-skills
+                    for language in general.languages
+                        div.language-skill(class="p" + language.percent)
+                            div.language-skill__inactive-bar
+                            div.language-skill__active-bar
+                            div.language-skill__info
+                                span.language-skill-name #{language.name}
+                                span.language-skill-description #{language.level}

@@ -86,6 +86,62 @@
         "description": "Republic contest. One of 15 finalists",
         "competition": "Competition: «GameDev: Game development for mobile platforms»"
       }
+    ],
+    "languages": [
+      {
+        "name": "Russian",
+        "percent": 100,
+        "level": "Native speaker"
+      },
+      {
+        "name": "English",
+        "percent": 50,
+        "level": "Intermediate"
+      }
     ]
-  }
+  },
+  "projects": [
+    {
+      "name": "Cloud Based Point Of Sale",
+      "NDA": true,
+      "duration": "Apr. 2014 - May. 2015",
+      "descriptions": [
+        "POS-terminal is hardware and software package complex. For trade operations, similar to a conventional cash register. In addition to sales records, POS-terminal may accumulate other data for later analysis.",
+        "POS-terminal application is based on Android platform to enhance the search for the right product and to receive its characteristics - prices, expiration dates, summaries, etc; to produce the fiscal receipts; to calculate the change; to make a variety of other reports."
+      ],
+      "responsibilities": [
+        "Communication with customer and team",
+        "Analyze requirements",
+        "Preparing and approving estimations",
+        "Introducing staff in the project",
+        "Frontend development",
+        "Bugfixing",
+        "Reports for customers"
+      ],
+      "toolsAndServices": [
+        "Jira",
+        "Confluence",
+        "AWS",
+        "Jenkins",
+        "Git",
+        "WebPush"
+      ],
+      "client": [
+        "AngularJS",
+        "jquery",
+        "bootstrap",
+        "ui-router",
+        "restangular",
+        "lodash",
+        "d3js",
+        "c3",
+        "moment",
+        "angular-translate",
+        "pickadate",
+        "sockjs",
+        "stomp",
+        "long-polling"
+      ]
+    }
+  ]
 }
