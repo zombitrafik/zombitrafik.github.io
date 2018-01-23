@@ -1,0 +1,51 @@
+section.general-block
+    div.col.col-50
+        article.general-block-info
+            h4.general-block-info__title About me
+            div.general-block-info__content
+                for content in general.about.content
+                    p #{content}
+
+        article.general-block-info
+            h4.general-block-info__title Key skills
+            div.general-block-info__content
+                ul.list
+                    for item in general.skills
+                        li.list__list-item #{item}
+
+        article.general-block-info
+            h4.general-block-info__title Hobbies & interests
+            div.general-block-info__content
+                for hobby in general.hobbies
+                    div.hobby-wrapper
+                        span.hobby-wrapper__hobby-icon(class="hobby-wrapper__hobby-icon-" + hobby.class)
+                        span.hobby-wrapper__hobby-description #{hobby.description}
+
+    div.col.col-50
+        article.general-block-info
+            h4.general-block-info__title Work experience
+            div.general-block-info__content
+                div.progress-sequence-line
+                ul.progress-sequence
+                    for job in general.jobs
+                        li.progress-sequence__item
+                            span.progress-sequence__item-title #{job.name}
+                            span.progress-sequence__item-description #{job.position}
+                            span.progress-sequence__item-duration #{job.duration}
+
+        article.general-block-info
+            h4.general-block-info__title Achievements
+            div.general-block-info__content
+                ul.achievements-list
+                    for achievement in general.achievements
+                        li.achievement-list__item
+                            div.achievement-list__item-place
+                                span #{achievement.place}
+                            span.achievement-list__item-title #{achievement.title}
+                            span.achievement-list__item-description #{achievement.description}
+                            span.achievement-list__item-competition #{achievement.competition}
+
+        article.general-block-info
+            h4.general-block-info__title Language skills
+            div.general-block-info__content
+                div.language-skills
