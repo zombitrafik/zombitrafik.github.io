@@ -7,4 +7,4 @@ var html = compileFn(
     require('./template-data.json')
 );
 
-fs.writeFileSync('./compiled.html', html, 'utf8');
+fs.writeFileSync('./index.html', html, 'utf8');
