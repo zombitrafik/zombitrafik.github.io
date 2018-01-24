@@ -8,7 +8,7 @@
     },
     "skills": [
       "AngularJS, d3.js, JavaScript, REST, JSON",
-      "HTML5, CSS3, SASS, BEM, Flexbox, Pug.js",
+      "HTML5, CSS3, SASS, BEM, Flexbox, Pug/Jade",
       "NodeJS, MongoDB, express, mongoose, Neo4j, passport",
       "Jira, Confluence, Trello",
       "Heroku, AWS",
