@@ -1,10 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700,800">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-Hello, World!
+<div class="wrapper">
+
+    <header>
+        <div class="logo"></div>
+        <div class="user">
+            <h1>Vladislav Mozhayskiy</h1>
+            <h4>Frontend Developer</h4>
+        </div>
+        <div class="contacts">
+            <address class="contact-icon contact-icon-mail">
+                <a href="mailto:zombitrafik05@gmail.com">zombitrafik05@gmail.com</a>
+            </address>
+            <span class="contact-icon contact-icon-phone">
+                <a href="tel:+375 33 306-78-85">+375 33 306-78-85</a>
+            </span>
+            <span class="contact-icon contact-icon-skype">
+                <a href="skype:zombitrafik/call">zombitrafik</a>
+            </span>
+        </div>
+    </header>
+
+    <section class="content">
+
+        <div class="column">
+
+            <article>
+                <h4 class="title">ABOUT ME</h4>
+                <div class="article-content">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </article>
+
+            <article>
+                <h4 class="title">KEY SKILLS</h4>
+                <div class="article-content">
+                    <ul class="key-skills">
+                        <li class="key-skills-item">AngularJS, d3.js, JavaScript, REST, JSON</li>
+                        <li class="key-skills-item">HTML5, CSS3, SASS, BEM, Flexbox, Pug.js</li>
+                        <li class="key-skills-item">NodeJS, MongoDB, express, mongoose, Neo4j, passport</li>
+                        <li class="key-skills-item">Jira, Confluence, Trello</li>
+                        <li class="key-skills-item">Heroku, AWS</li>
+                        <li class="key-skills-item">PubNub, Firebase</li>
+                        <li class="key-skills-item">Git</li>
+                        <li class="key-skills-item">Grunt, Gulp, Jenkins</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article>
+                <h4 class="title">HOBBIES & INTERESTS</h4>
+                <div class="article-content">
+                    <span class="hobby-wrapper">
+                        <span class="hobby-icon swimming"></span>
+                        <span class="hobby-description">Swimming</span>
+                    </span>
+                    <span class="hobby-wrapper">
+                        <span class="hobby-icon trains"></span>
+                        <span class="hobby-description">Trains</span>
+                    </span>
+                    <span class="hobby-wrapper">
+                        <span class="hobby-icon cubic"></span>
+                        <span class="hobby-description">Rubik's Cube</span>
+                    </span>
+                    <span class="hobby-wrapper">
+                        <span class="hobby-icon cycling"></span>
+                        <span class="hobby-description">Cycling</span>
+                    </span>
+                    <span class="hobby-wrapper">
+                        <span class="hobby-icon music"></span>
+                        <span class="hobby-description">Music</span>
+                    </span>
+                    <span class="hobby-wrapper">
+                        <span class="hobby-icon sport"></span>
+                        <span class="hobby-description">Sport</span>
+                    </span>
+                    <span class="hobby-wrapper">
+                        <span class="hobby-icon travelling"></span>
+                        <span class="hobby-description">Travelling</span>
+                    </span>
+                    <span class="hobby-wrapper">
+                        <span class="hobby-icon programming"></span>
+                        <span class="hobby-description">Programming</span>
+                    </span>
+                </div>
+            </article>
+
+        </div>
+        <div class="column">
+            <article>
+                <h4 class="title">WORK EXPERIENCE</h4>
+                <div class="article-content">
+                    <div class="progress-line"></div>
+                    <ul class="progress-captions">
+                        <li class="progress-caption">
+                            <span class="caption-line job-title">Mainsoft LLC, Vitebsk, BELARUS</span>
+                            <span class="caption-line job-post">Frontend developer</span>
+                            <span class="caption-line work-duration">Jul. 2015 - Now</span>
+                        </li>
+                        <li class="progress-caption">
+                            <span class="caption-line job-title">upping.by, Minsk, BELARUS</span>
+                            <span class="caption-line job-post">Frontend developer</span>
+                            <span class="caption-line work-duration">Dec. 2014 - Jun. 2015</span>
+                        </li>
+                        <li class="progress-caption">
+                            <span class="caption-line job-title">«Виртуоз Бай» LLC, Vitebsk, BELARUS</span>
+                            <span class="caption-line job-post">Frontend developer</span>
+                            <span class="caption-line work-duration">Apr. 2014 - May. 2015</span>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <article>
+                <h4 class="title">ACHIEVEMENTS</h4>
+                <div class="article-content">
+                    <ul class="achievements">
+                        <li class="achievement">
+                            <div class="achievement-place">
+                                <span>4<span class="th-ending">th</span></span>
+                            </div>
+                            <span class="achievement-name">BIT-Cup 2017 (Student Olympiad in IT)</span>
+                            <span class="achievement-description">Republic contest. One of 12 finalists</span>
+                            <span class="achievement-competition">Competition: «Yandex: Algorithms of data storage and processing»</span>
+                        </li>
+                        <li class="achievement">
+                            <div class="achievement-place">
+                                <span>7<span class="th-ending">th</span></span>
+                            </div>
+                            <span class="achievement-name">BIT-Cup 2015 (Student Olympiad in IT)</span>
+                            <span class="achievement-description">Republic contest. One of 14 finalists</span>
+                            <span class="achievement-competition">Competition: «GameDev: Wargaming»</span>
+                        </li>
+                        <li class="achievement">
+                            <div class="achievement-place">
+                                <span>4<span class="th-ending">th</span></span>
+                            </div>
+                            <span class="achievement-name">BIT-Cup 2014 (Student Olympiad in IT)</span>
+                            <span class="achievement-description">Republic contest. One of 15 finalists</span>
+                            <span class="achievement-competition">Competition: «GameDev: Game development for mobile platforms»</span>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <article>
+                <h4 class="title">LANGUAGE SKILLS</h4>
+                <div class="article-content lang-skills">
+
+                    <div class="radial-progress-wrapper p100">
+                        <div class="radial-progress"></div>
+                        <div class="radial-progress active"></div>
+                        <div class="lang-skills-title">
+                            <div>RUSSIAN</div>
+                            <div class="lang-skills-desc">Native speaker</div>
+                        </div>
+                    </div>
+
+                    <div class="radial-progress-wrapper p50">
+                        <div class="radial-progress active"></div>
+                        <div class="radial-progress"></div>
+                        <div class="lang-skills-title">
+                            <div>ENGLISH</div>
+                            <div class="lang-skills-desc">Intermediate</div>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+        </div>
+
+    </section>
+    <section class="work-experience">
+
+        <h4 class="title">PROJECT EXPERIENCE</h4>
+
+        <article>
+            <div class="project-title">
+                <span>Cloud Based Point Of Sale<span class="badge badge-invert badge-nda">NDA</span></span>
+            </div>
+            <div class="project-info">
+                <div class="column">
+                    <div class="project-description">
+                        <span class="block-name">Project description:</span>
+                        <p>POS-terminal is hardware and software package complex. For trade operations, similar to a conventional cash register. In addition to sales records, POS-terminal may accumulate other data for later analysis.</p>
+                        <p>POS-terminal application is based on Android platform to enhance the search for the right product and to receive its characteristics - prices, expiration dates, summaries, etc; to produce the fiscal receipts; to calculate the change; to make a variety of other reports.</p>
+                    </div>
+                    <div class="project-responsibilities">
+                        <span class="block-name">Project responsibilities:</span>
+                        <ul>
+                            <li>Communication with customer and team</li>
+                            <li>Analyze requirements</li>
+                            <li>Preparing and approving estimations</li>
+                            <li>Introducing staff in the project</li>
+                            <li>Frontend development</li>
+                            <li>Bugfixing</li>
+                            <li>Reports for customers</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="project-technologies">
+                        <div class="technologies-group">
+                            <div class="block-name">Tools & Services:</div>
+                            <div class="technologies-group-list">
+                                <span class="badge badge-skill">Jira</span>
+                                <span class="badge badge-skill">Confluence</span>
+                                <span class="badge badge-skill">AWS</span>
+                                <span class="badge badge-skill">Jenkins</span>
+                                <span class="badge badge-skill">Git</span>
+                                <span class="badge badge-skill">WebPush</span>
+                            </div>
+                        </div>
+                        <div class="technologies-group">
+                            <div class="block-name">Client:</div>
+                            <div class="technologies-group-list">
+                                <span class="badge badge-skill">AngularJS</span>
+                                <span class="badge badge-skill">jquery</span>
+                                <span class="badge badge-skill">bootstrap</span>
+                                <span class="badge badge-skill">ui-router</span>
+                                <span class="badge badge-skill">restangular</span>
+                                <span class="badge badge-skill">lodash</span>
+                                <span class="badge badge-skill">d3js</span>
+                                <span class="badge badge-skill">c3</span>
+                                <span class="badge badge-skill">moment</span>
+                                <span class="badge badge-skill">angular-translate</span>
+                                <span class="badge badge-skill">pickadate</span>
+                                <span class="badge badge-skill">sockjs</span>
+                                <span class="badge badge-skill">stomp</span>
+                                <span class="badge badge-skill">long-polling</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-duration">Apr. 2014 - May. 2015</div>
+        </article>
+
+    </section>
+
+    <footer></footer>
+
+</div>
 </body>
 </html>

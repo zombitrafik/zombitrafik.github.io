@@ -1,0 +1,189 @@
+{
+  "general": {
+    "about": {
+      "content": [
+        "TODO 1",
+        "TODO 2"
+      ]
+    },
+    "skills": [
+      "AngularJS, d3.js, JavaScript, REST, JSON",
+      "HTML5, CSS3, SASS, BEM, Flexbox, Pug/Jade",
+      "NodeJS, MongoDB, express, mongoose, Neo4j, passport",
+      "Jira, Confluence, Trello",
+      "Heroku, AWS",
+      "PubNub, Firebase",
+      "Git",
+      "Grunt, Gulp, Jenkins"
+    ],
+    "hobbies": [
+      {
+        "class": "swimming",
+        "description": "Swimming"
+      },
+      {
+        "class": "trains",
+        "description": "Trains"
+      },
+      {
+        "class": "cubic",
+        "description": "Rubik's Cube"
+      },
+      {
+        "class": "cycling",
+        "description": "Cycling"
+      },
+      {
+        "class": "music",
+        "description": "Music"
+      },
+      {
+        "class": "sport",
+        "description": "Sport"
+      },
+      {
+        "class": "travelling",
+        "description": "Travelling"
+      },
+      {
+        "class": "programming",
+        "description": "Programming"
+      }
+    ],
+    "jobs": [
+      {
+        "name": "Mainsoft LLC, Vitebsk, BELARUS",
+        "position": "Frontend developer",
+        "duration": "Jul. 2015 - Now"
+      },
+      {
+        "name": "upping.by, Minsk, BELARUS",
+        "position": "Frontend developer",
+        "duration": "Dec. 2014 - Jun. 2015"
+      },
+      {
+        "name": "«Виртуоз Бай» LLC, Vitebsk, BELARUS",
+        "position": "Frontend developer",
+        "duration": "Apr. 2014 - May. 2015"
+      }
+    ],
+    "achievements": [
+      {
+        "place": 4,
+        "title": "BIT-Cup 2017 (Student Olympiad in IT)",
+        "description": "Republic contest. One of 12 finalists",
+        "competition": "Competition: «Yandex: Algorithms of data storage and processing»"
+      },
+      {
+        "place": 7,
+        "title": "BIT-Cup 2015 (Student Olympiad in IT)",
+        "description": "Republic contest. One of 14 finalists",
+        "competition": "Competition: «GameDev: Wargaming»"
+      },
+      {
+        "place": 4,
+        "title": "BIT-Cup 2014 (Student Olympiad in IT)",
+        "description": "Republic contest. One of 15 finalists",
+        "competition": "Competition: «GameDev: Game development for mobile platforms»"
+      }
+    ],
+    "languages": [
+      {
+        "name": "Russian",
+        "percent": 100,
+        "level": "Native speaker"
+      },
+      {
+        "name": "English",
+        "percent": 50,
+        "level": "Intermediate"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "Cloud Based Point Of Sale",
+      "NDA": true,
+      "duration": "Apr. 2014 - May. 2015",
+      "descriptions": [
+        "POS-terminal is hardware and software package complex. For trade operations, similar to a conventional cash register. In addition to sales records, POS-terminal may accumulate other data for later analysis.",
+        "POS-terminal application is based on Android platform to enhance the search for the right product and to receive its characteristics - prices, expiration dates, summaries, etc; to produce the fiscal receipts; to calculate the change; to make a variety of other reports."
+      ],
+      "responsibilities": [
+        "Communication with customer and team",
+        "Analyze requirements",
+        "Preparing and approving estimations",
+        "Introducing staff in the project",
+        "Frontend development",
+        "Bugfixing",
+        "Reports for customers"
+      ],
+      "toolsAndServices": [
+        "Jira",
+        "Confluence",
+        "AWS",
+        "Jenkins",
+        "Git",
+        "WebPush"
+      ],
+      "client": [
+        "AngularJS",
+        "jquery",
+        "bootstrap",
+        "ui-router",
+        "restangular",
+        "lodash",
+        "d3js",
+        "c3",
+        "moment",
+        "angular-translate",
+        "pickadate",
+        "sockjs",
+        "stomp",
+        "long-polling"
+      ]
+    },
+    {
+      "name": "Cloud Based Point Of Sale",
+      "NDA": true,
+      "duration": "Apr. 2014 - May. 2015",
+      "descriptions": [
+        "POS-terminal is hardware and software package complex. For trade operations, similar to a conventional cash register. In addition to sales records, POS-terminal may accumulate other data for later analysis.",
+        "POS-terminal application is based on Android platform to enhance the search for the right product and to receive its characteristics - prices, expiration dates, summaries, etc; to produce the fiscal receipts; to calculate the change; to make a variety of other reports."
+      ],
+      "responsibilities": [
+        "Communication with customer and team",
+        "Analyze requirements",
+        "Preparing and approving estimations",
+        "Introducing staff in the project",
+        "Frontend development",
+        "Bugfixing",
+        "Reports for customers"
+      ],
+      "toolsAndServices": [
+        "Jira",
+        "Confluence",
+        "AWS",
+        "Jenkins",
+        "Git",
+        "WebPush"
+      ],
+      "client": [
+        "AngularJS",
+        "jquery",
+        "bootstrap",
+        "ui-router",
+        "restangular",
+        "lodash",
+        "d3js",
+        "c3",
+        "moment",
+        "angular-translate",
+        "pickadate",
+        "sockjs",
+        "stomp",
+        "long-polling"
+      ]
+    }
+  ]
+}
