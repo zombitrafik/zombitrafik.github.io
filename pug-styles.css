@@ -492,3 +492,86 @@ header {
     color: #525252;
     font-weight: 600;
 }
+
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        width: 768px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+        border: none;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    section {
+        padding: 10px 10px 0 10px;
+    }
+    .header-user-info {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+    .header-contacts {
+        display: none;
+    }
+    .general-block {
+        flex-direction: column;
+        padding: 25px 10px 0 10px;
+    }
+    .general-block-info {
+        margin-bottom: 20px;
+    }
+    .list__list-item {
+        margin-bottom: 8px;
+    }
+    .hobby-wrapper {
+        margin: calc(calc(100% - 282px) / 6);
+        margin-top: 0;
+    }
+    .achievement-list__item {
+        padding-bottom: 10px;
+        min-height: 70px;
+        height: auto;
+    }
+    .language-skills {
+        justify-content: center;
+    }
+    .project-body {
+        flex-direction: column;
+    }
+    .project-block > p {
+        text-indent: 25px;
+        text-align: justify;
+    }
+    .project-body__column-1 {
+        padding: 0;
+    }
+    .project-footer {
+        text-align: center;
+        padding-top: 0;
+    }
+    .project-header .badge {
+        float: right;
+        margin-top: -3px;
+    }
+    .work-experience article {
+        margin-top: 40px;
+    }
+    .work-experience article:first-of-type {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 460px) and (max-width: 768px) {
+    .hobby-wrapper {
+        margin: calc(calc(100% - 376px) / 8);
+    }
+    .project-footer {
+        padding-top: 10px;
+    }
+}
