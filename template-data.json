@@ -2,9 +2,9 @@
   "general": {
     "about": {
       "content": [
-        "I'm a 21 years old Front-end developer Vitebsk(Belarus), and I'm very keen on everything relates to it. At the same time I like to work in sphere of scraping, parsing and processing data, automation of routine tasks, implementation of complex UI components, investigation and implementation of uncommon solutions to solve different problems I encounter.",
-        "I have 4 years of experience working in a company and as a freelance.",
-        "If you do not mind to work together, scroll down and see why I can be good part of your team."
+        "I'm a 21-year-old Front-end developer from Vitebsk (Belarus), and I'm very keen on everything related to it. At the same time I like to work in the sphere of scraping, parsing and processing data, automation of routine tasks, implementation of complex UI components, investigation and implementation of uncommon solutions to deal with different problems I encounter.",
+        "I have 4 years of experience working in a company and as a freelancer.",
+        "If you do not mind working together, scroll down and see why I can be a good part of your team."
       ]
     },
     "skills": [
@@ -15,6 +15,7 @@
       "Heroku, AWS",
       "PubNub, Firebase",
       "Git",
+      "WebSocket",
       "Grunt, Gulp, Jenkins"
     ],
     "hobbies": [
@@ -107,17 +108,17 @@
       "type": "NDA",
       "duration": "Sep. 2015 - Now",
       "descriptions": [
-        "POS-terminal is hardware and software package complex. For trade operations, similar to a conventional cash register. In addition to sales records, POS-terminal may accumulate other data for later analysis. ",
-        "POS-terminal application is based on Android platform which runs an application inside the WebView(offline mode supported via Application Cache technology). There are more than ten different reports with graphs, which user can print via build-in cheque printer."
+        "POS-terminal is hardware and software package complex for trade operations, similar to a conventional cash register. In addition to sales records, POS-terminal may accumulate other data for later analysis. ",
+        "POS-terminal application is based on Android platform which runs an application inside the WebView(offline mode supported via Application Cache technology). There are more than ten different reports with graphs, which a user can print via build-in cheque printer."
       ],
       "responsibilities": [
-        "Communication with customer and team",
-        "Analyze requirements",
+        "Communication with the customer and team",
+        "Analysis of the requirements",
         "Preparing and approving estimations",
-        "Introducing staff in the project",
+        "Introducing the staff in the project",
         "Front-end development",
         "Bugfixing",
-        "Reports for customers"
+        "Making reports for customers"
       ],
       "toolsAndServices": [
         "Jira",
@@ -159,8 +160,8 @@
         "- manage employee rights with help of roles and privileges"
       ],
       "responsibilities": [
-        "Communication with customer",
-        "Analyze requirements",
+        "Communication the with customer",
+        "Analysis of the requirements",
         "Preparing and approving estimations",
         "Front-end development",
         "Bugfixing"
@@ -189,22 +190,22 @@
       "duration": "Jun. 2016 - Nov. 2016",
       "descriptions": [
         "Money exchanger is an application that allows users to quickly and safely transfer their money between credit cards.",
-        "Money exchanger synchronize phone contacts, that means that user can transfer money using phone number on even user name without knowing exact credit card number. The application provides possibility to:",
+        "Money exchanger synchronizes phone contacts, that means that user can transfer money using phone number on even user name without knowing exact credit card number. The application provides possibility to:",
         "- send money",
         "- receive money",
         "- lend and borrow money",
         "- exchange money"
       ],
       "responsibilities": [
-        "- Communication with customer and team",
-        "- Analyzing requirements",
-        "- Preparing estimations",
-        "- Back-end development",
-        "- Problem solving",
-        "- Improving system performance",
-        "- Troubleshoot memory leak problems",
-        "- Running releases",
-        "- Bugfixing"
+        "Communication with the customer and team",
+        "Analysis of the requirements",
+        "Preparing estimations",
+        "Back-end development",
+        "Problem solving",
+        "Improving system performance",
+        "Troubleshooting memory leak problems",
+        "Running releases",
+        "Bugfixing"
       ],
       "toolsAndServices": [
         "Jira",
@@ -235,8 +236,8 @@
         "\"Buyers\" are users who are keen to share their local experience and willing to go out and buy unique items from their local area for \"shoppers\". It is also the Buyer’s responsibility to handle the shipping of the requested item. \"Shoppers\" are users who are interested in buying items in locations that are too remote or expensive for them to do so via the currently available methods. The Shopper agrees upon a rate, which includes the cost of purchasing and shipping the item(s), with a Buyer who is able to obtain their desired goods."
       ],
       "responsibilities": [
-        "Communication with customer and team",
-        "Analyze requirements",
+        "Communication with the customer and team",
+        "Analysis of the requirements",
         "Preparing estimations",
         "Front-end development",
         "Bugfixing"
@@ -271,9 +272,9 @@
         "Travelling app will direct the user to the recommended place wherever he go, the recommendations will help him decide where to sleep, eat and spend his time."
       ],
       "responsibilities": [
-        "Communication with customer and team",
-        "Maintain existing project",
-        "Analyze requirements",
+        "Communication with the customer and team",
+        "Maintaining existing project",
+        "Analysis of the requirements",
         "Code review",
         "Preparing and approving estimations",
         "Front-end development",
@@ -304,9 +305,9 @@
         "The project using a scoring system to rate thousands of different foods and food combinations based on your gut microbiome analysis and lifestyle factors."
       ],
       "responsibilities": [
-        "Communication with customer and team",
-        "Maintain existing project",
-        "Analyze requirements",
+        "Communication with the customer and team",
+        "Maintaining existing project",
+        "Analysis of the requirements",
         "Code review",
         "Preparing estimations",
         "Front-end development",
@@ -339,7 +340,7 @@
         "Linkedin scraper provides opportunity to extract user profile information such as contact information and profile data, work experience and education, skills and achievements. It works over CSP by replacing every request and removing csp header from it."
       ],
       "responsibilities": [
-        "Communicating with team",
+        "Communicating with the team",
         "Investigating linkedin API",
         "Researching headless chrome",
         "Implementing cache feature",
@@ -371,8 +372,8 @@
         "- the user setting up automatic updating of advertisment on a schedule"
       ],
       "responsibilities": [
-        "Communication with customer",
-        "Analyze requirements",
+        "Communication with the customer",
+        "Analysis of the requirements",
         "Parsing of advertising platforms",
         "Preparing estimations",
         "Front-end and back-end development",
