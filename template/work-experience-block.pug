@@ -13,15 +13,14 @@ section.work-experience
         article
             div.project-header
                 span #{project.name}
-                    if project.NDA
-                        span.badge.badge-invert NDA
+                    span.badge.badge-invert #{project.type}
 
             div.project-body
                 div.project-body__column-2
                     div.project-block
                         span.project-block__title Project description:
                         for projectDescription in project.descriptions
-                            p #{projectDescription}
+                            p !{projectDescription}
 
                     div.project-block
                         span.project-block__title Project responsibilities:

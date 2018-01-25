@@ -141,6 +141,10 @@ header {
 
 .general-block-info__content p {
     white-space: pre-line;
+    text-indent: 25px;
+    text-align: justify;
+    line-height: 22px;
+    font-family: sans-serif;
 }
 
 .list {
@@ -483,6 +487,10 @@ header {
     white-space: pre-line;
 }
 
+.project-block > p a {
+    text-decoration: underline;
+}
+
 .project-footer {
     padding: 10px 0;
 }
@@ -491,6 +499,26 @@ header {
     font-size: 14px;
     color: #525252;
     font-weight: 600;
+}
+
+footer {
+    padding: 0 20px;
+}
+.footer-wrapper {
+    border-top: 2px dotted #bdbdbd;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-wrapper span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.footer-wrapper a {
+    padding: 5px;
+    color: #525252;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -528,6 +556,7 @@ header {
     }
     .list__list-item {
         margin-bottom: 8px;
+        font-size: 14px;
     }
     .hobby-wrapper {
         margin: calc(calc(100% - 282px) / 6);
@@ -538,6 +567,13 @@ header {
         min-height: 70px;
         height: auto;
     }
+    .achievement-list__item-title {
+        font-size: 14px;
+    }
+    .achievement-list__item-description,
+    .achievement-list__item-competition {
+        font-size: 13px;
+    }
     .language-skills {
         justify-content: center;
     }
@@ -547,6 +583,7 @@ header {
     .project-block > p {
         text-indent: 25px;
         text-align: justify;
+        font-size: 14px;
     }
     .project-body__column-1 {
         padding: 0;

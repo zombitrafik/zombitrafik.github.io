@@ -2,8 +2,9 @@
   "general": {
     "about": {
       "content": [
-        "TODO 1",
-        "TODO 2"
+        "I'm a 21 years old Front-end developer Vitebsk(Belarus), and I'm very keen on everything relates to it. At the same time I like to work in sphere of scraping, parsing and processing data, automation of routine tasks, implementation of complex UI components, investigation and implementation of uncommon solutions to solve different problems I encounter.",
+        "I have 4 years of experience working in a company and as a freelance.",
+        "If you do not mind to work together, scroll down and see why I can be good part of your team."
       ]
     },
     "skills": [
@@ -53,17 +54,17 @@
     "jobs": [
       {
         "name": "Mainsoft LLC, Vitebsk, BELARUS",
-        "position": "Frontend developer",
+        "position": "Front-end developer",
         "duration": "Jul. 2015 - Now"
       },
       {
         "name": "upping.by, Minsk, BELARUS",
-        "position": "Frontend developer",
+        "position": "Front-end developer",
         "duration": "Dec. 2014 - Jun. 2015"
       },
       {
         "name": "«Виртуоз Бай» LLC, Vitebsk, BELARUS",
-        "position": "Frontend developer",
+        "position": "Front-end developer",
         "duration": "Apr. 2014 - May. 2015"
       }
     ],
@@ -103,18 +104,18 @@
   "projects": [
     {
       "name": "Cloud Based Point Of Sale",
-      "NDA": true,
-      "duration": "Apr. 2014 - May. 2015",
+      "type": "NDA",
+      "duration": "Sep. 2015 - Now",
       "descriptions": [
-        "POS-terminal is hardware and software package complex. For trade operations, similar to a conventional cash register. In addition to sales records, POS-terminal may accumulate other data for later analysis.",
-        "POS-terminal application is based on Android platform to enhance the search for the right product and to receive its characteristics - prices, expiration dates, summaries, etc; to produce the fiscal receipts; to calculate the change; to make a variety of other reports."
+        "POS-terminal is hardware and software package complex. For trade operations, similar to a conventional cash register. In addition to sales records, POS-terminal may accumulate other data for later analysis. ",
+        "POS-terminal application is based on Android platform which runs an application inside the WebView(offline mode supported via Application Cache technology). There are more than ten different reports with graphs, which user can print via build-in cheque printer."
       ],
       "responsibilities": [
         "Communication with customer and team",
         "Analyze requirements",
         "Preparing and approving estimations",
         "Introducing staff in the project",
-        "Frontend development",
+        "Front-end development",
         "Bugfixing",
         "Reports for customers"
       ],
@@ -128,7 +129,7 @@
       ],
       "client": [
         "AngularJS",
-        "jquery",
+        "Jquery",
         "bootstrap",
         "ui-router",
         "restangular",
@@ -140,49 +141,280 @@
         "pickadate",
         "sockjs",
         "stomp",
-        "long-polling"
+        "long-polling",
+        "Application Cache"
       ]
     },
     {
-      "name": "Cloud Based Point Of Sale",
-      "NDA": true,
-      "duration": "Apr. 2014 - May. 2015",
+      "name": "IT Security Expert",
+      "type": "NDA",
+      "duration": "Sep. 2017 - Dec. 2017",
       "descriptions": [
-        "POS-terminal is hardware and software package complex. For trade operations, similar to a conventional cash register. In addition to sales records, POS-terminal may accumulate other data for later analysis.",
-        "POS-terminal application is based on Android platform to enhance the search for the right product and to receive its characteristics - prices, expiration dates, summaries, etc; to produce the fiscal receipts; to calculate the change; to make a variety of other reports."
+        "IT Security Expert is a platform that allows security experts to develop security applications, as well as choose the best existing security settings and for their needs. As the result, it will help transform their network into an independent, truly secure platform for their organization. That platform allows security experts:",
+        "- monitor netowrk attacks on the different parts of the system;",
+        "- monitor & filter incoming and outgoing network traffic;",
+        "- block attacks by selected pattern;",
+        "- make different reports based on collected data at all stages of the attack;",
+        "- make different reports based on collected data at all stages of the attack;",
+        "- manage employee rights with help of roles and privileges"
       ],
       "responsibilities": [
-        "Communication with customer and team",
+        "Communication with customer",
         "Analyze requirements",
         "Preparing and approving estimations",
-        "Introducing staff in the project",
-        "Frontend development",
-        "Bugfixing",
-        "Reports for customers"
+        "Front-end development",
+        "Bugfixing"
+      ],
+      "toolsAndServices": [
+        "Jira",
+        "Git"
+      ],
+      "client": [
+        "Grunt",
+        "bower",
+        "bootstrap",
+        "AngularJS",
+        "restangular",
+        "lodash",
+        "translate",
+        "d3js",
+        "resizable",
+        "ui-router",
+        "dragdrop"
+      ]
+    },
+    {
+      "name": "Messenger to exchange money",
+      "type": "NDA",
+      "duration": "Jun. 2016 - Nov. 2016",
+      "descriptions": [
+        "Money exchanger is an application that allows users to quickly and safely transfer their money between credit cards.",
+        "Money exchanger synchronize phone contacts, that means that user can transfer money using phone number on even user name without knowing exact credit card number. The application provides possibility to:",
+        "- send money",
+        "- receive money",
+        "- lend and borrow money",
+        "- exchange money"
+      ],
+      "responsibilities": [
+        "- Communication with customer and team",
+        "- Analyzing requirements",
+        "- Preparing estimations",
+        "- Back-end development",
+        "- Problem solving",
+        "- Improving system performance",
+        "- Troubleshoot memory leak problems",
+        "- Running releases",
+        "- Bugfixing"
       ],
       "toolsAndServices": [
         "Jira",
         "Confluence",
-        "AWS",
+        "Git",
+        "AWS"
+      ],
+      "server": [
+        "XMPcore",
+        "NodeJS",
+        "mongoose",
+        "express",
+        "mongodb",
+        "internal service for sending sms messages",
+        "mocha",
+        "chai",
+        "passport",
+        "underscore",
+        "sharp"
+      ]
+    },
+    {
+      "name": "Connect Buyers and Shoppers",
+      "type": "NDA",
+      "duration": "Jul. 2015 - Oct. 2015",
+      "descriptions": [
+        "\"Connect Buyers and Shoppers\" is a platform for alternative peer-to-peer ecommerce that connects online shoppers with local people (\"buyers\") around the world.",
+        "\"Buyers\" are users who are keen to share their local experience and willing to go out and buy unique items from their local area for \"shoppers\". It is also the Buyer’s responsibility to handle the shipping of the requested item. \"Shoppers\" are users who are interested in buying items in locations that are too remote or expensive for them to do so via the currently available methods. The Shopper agrees upon a rate, which includes the cost of purchasing and shipping the item(s), with a Buyer who is able to obtain their desired goods."
+      ],
+      "responsibilities": [
+        "Communication with customer and team",
+        "Analyze requirements",
+        "Preparing estimations",
+        "Front-end development",
+        "Bugfixing"
+      ],
+      "toolsAndServices": [
+        "Jira",
+        "Confluence",
         "Jenkins",
         "Git",
-        "WebPush"
+        "PubNub"
+      ],
+      "client": [
+        "Grunt",
+        "bower",
+        "Jquery",
+        "bootstrap",
+        "AngularJS",
+        "ui-router",
+        "angular-mock",
+        "restangular",
+        "lodash",
+        "ng-file-upload",
+        "ng-tags-input"
+      ]
+    },
+    {
+      "name": "Travel Application, Israel",
+      "type": "NDA",
+      "duration": "Sep. 2017 - Dec. 2017",
+      "descriptions": [
+        "The most useful and profitable tourist application. It offers a variety of attractions based on the geolocation of users or in the selected region, which allows the user to book tickets with the best discount at the moment.",
+        "Travelling app will direct the user to the recommended place wherever he go, the recommendations will help him decide where to sleep, eat and spend his time."
+      ],
+      "responsibilities": [
+        "Communication with customer and team",
+        "Maintain existing project",
+        "Analyze requirements",
+        "Code review",
+        "Preparing and approving estimations",
+        "Front-end development",
+        "Bugfixing",
+        "Architecture"
+      ],
+      "toolsAndServices": [
+        "Jira",
+        "Confluence",
+        "Git"
       ],
       "client": [
         "AngularJS",
-        "jquery",
-        "bootstrap",
+        "Jquery",
         "ui-router",
-        "restangular",
-        "lodash",
-        "d3js",
-        "c3",
         "moment",
+        "LESS",
         "angular-translate",
-        "pickadate",
-        "sockjs",
-        "stomp",
-        "long-polling"
+        "lodash"
+      ]
+    },
+    {
+      "name": "Personalized nutrition",
+      "type": "NDA",
+      "duration": "Dec. 2017 - Now",
+      "descriptions": [
+        "The main idea of the project is to analyze the user's microbiome to predict the reaction of blood sugar to thousands of different products.Samples are carefully analyzed through patent pending algorithm, producing a unique nutrition profile for every user.",
+        "The project using a scoring system to rate thousands of different foods and food combinations based on your gut microbiome analysis and lifestyle factors."
+      ],
+      "responsibilities": [
+        "Communication with customer and team",
+        "Maintain existing project",
+        "Analyze requirements",
+        "Code review",
+        "Preparing estimations",
+        "Front-end development",
+        "Bugfixing"
+      ],
+      "toolsAndServices": [
+        "Jira",
+        "Confluence",
+        "Git"
+      ],
+      "client": [
+        "AngularJS",
+        "Jquery",
+        "ui-router",
+        "moment",
+        "d3js",
+        "angular-material",
+        "Kendo UI",
+        "requirejs",
+        "LESS",
+        "font-awesome",
+        "angular-translate"
+      ]
+    },
+    {
+      "name": "Linkedin scraper",
+      "type": "NDA",
+      "duration": "Jan. 2018 - Now",
+      "descriptions": [
+        "Linkedin scraper provides opportunity to extract user profile information such as contact information and profile data, work experience and education, skills and achievements. It works over CSP by replacing every request and removing csp header from it."
+      ],
+      "responsibilities": [
+        "Communicating with team",
+        "Investigating linkedin API",
+        "Researching headless chrome",
+        "Implementing cache feature",
+        "Implementing two way scraping feature"
+      ],
+      "toolsAndServices": [
+        "Jira",
+        "Confluence",
+        "Git",
+        "Charles",
+        "Fiddler"
+      ],
+      "server": [
+        "puppeteer",
+        "NodeJS",
+        "express",
+        "node-fetch"
+      ]
+    },
+    {
+      "name": "Upping.by (99board)",
+      "type": "FREELANCE",
+      "duration": "Dec. 2014 - Jun. 2015",
+      "descriptions": [
+        "99board - it is an automatic publishing system of users' ads. How it works:",
+        "- the user сreates ads in the system",
+        "- the user chooses advertisment platforms and configures them",
+        "- the user places ads on selected platforms",
+        "- the user setting up automatic updating of advertisment on a schedule"
+      ],
+      "responsibilities": [
+        "Communication with customer",
+        "Analyze requirements",
+        "Parsing of advertising platforms",
+        "Preparing estimations",
+        "Front-end and back-end development",
+        "Bugfixing"
+      ],
+      "toolsAndServices": [
+        "Git",
+        "Trello"
+      ],
+      "client": [
+        "AngularJS",
+        "Jquery",
+        "bootstrap",
+        "cheerio"
+      ],
+      "server": [
+        "PHP",
+        "CakePHP",
+        "cron"
+      ]
+    },
+    {
+      "name": "instagram-private-api",
+      "type": "OPEN SOURCE",
+      "duration": "Jun. 2017 - Aug. 2017",
+      "descriptions": [
+        "It is an API wrapper over Instagram PRIVATE API. <a class=\"\" href=\"https://github.com/huttarichard/instagram-private-api/pull/256\" target=\"_blank\">Pull request link</a>"
+      ],
+      "responsibilities": [
+        "Investigating instagram private API",
+        "Implementing posting album feature"
+      ],
+      "toolsAndServices": [
+        "Git",
+        "Charles",
+        "Fiddler"
+      ],
+      "server": [
+        "NodeJS",
+        "request",
+        "bluebird",
+        "lodash"
       ]
     }
   ]
