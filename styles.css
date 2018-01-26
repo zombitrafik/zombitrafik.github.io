@@ -63,11 +63,9 @@ header {
 
 .header-logo {
     overflow: hidden;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    width: 128px;
+    height: 128px;
     background: url(images/logo.png);
-    background-position: -10px -10px;
 }
 
 .header-user-info {
